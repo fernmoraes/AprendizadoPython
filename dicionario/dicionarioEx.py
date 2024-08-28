@@ -49,7 +49,7 @@ for valor in dicionario1.values():
     print(valor)
 print()
 
-# Percorrer os valores e chaves do dicionário
+# Percorrer os chaves e valores do dicionário
 for chave, valor in dicionario1.items():
     print(chave, valor)
 print()
