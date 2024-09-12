@@ -60,3 +60,13 @@ else:               #Caso não ocorra nenhuma exceção
 finally:            #Finally ocorre tendo exceção ou não
     print('Fim da conta')
 
+'''
+    Vantagens do Tratamento de Exceções
+-Confiabilidade aprimorada
+-Código mais limpo
+-Manutenção facilitada
+
+    Desvantagem do Tratamento de Exceções
+-Sobrecarga do desempenho
+-Maior complexidade do código
+'''
