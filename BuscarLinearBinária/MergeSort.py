@@ -5,6 +5,12 @@ Possui 2 funções utilizadas na implementação do Merge Sort
 - merge_sort: é a função que divide a lista em sublistas
 - intercala: éafunção que intercala duas sublistas em uma lista ordenada
 '''
+'''
+-O desempenho do MergeSort não é impactado pela disposiçãoinicial dos itens da lista
+-O algortimo apresenta tanto no pior caso quanto no melhor caso um tempo de execução linear de comparações,
+em função do tamanho da lista.
+-O tempo de execução é n log n
+'''
 
 def intercala(lista, inicio, meio, fim):
     aux = []                                # lista auxiliar
